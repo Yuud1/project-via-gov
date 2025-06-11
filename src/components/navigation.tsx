@@ -29,7 +29,7 @@ export function Navigation() {
   const routes = userType === "admin" ? adminRoutes : driverRoutes
 
   return (
-    <nav className="bg-white shadow-sm border-b sm: px-5">
+    <nav className="bg-white shadow-sm border-b px-5 sm:p-10px">
       <div className="max-w-7xl mx-20 px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-8">
